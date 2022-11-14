@@ -1,6 +1,8 @@
 import { of, from } from 'rxjs';
 import { bufferCount, concatMap, delay, reduce } from 'rxjs/operators';
 
+// observable : 일종의 스트림 생성기
+// 
 const patientIds = [
   '111',
   '222',
